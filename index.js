@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 
 const PORT = process.env.PORT || 10000;
-const API_TOKEN = process.env.COC_API_TOKEN;
+const API_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6ImIwMzdiOGFkLWI4MWYtNDY0NC1hZTY5LTYxNTA4YWQ3YjNiNyIsImlhdCI6MTc2MjQ0MzIyMSwic3ViIjoiZGV2ZWxvcGVyL2U2YjA5NmQ4LTkwMTktOGQ2Zi01ODc4LTM3ODZlMjNkYWM5NCIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjUyLjEzLjEyOC4xMDgiXSwidHlwZSI6ImNsaWVudCJ9XX0.ay1t8ryeLJ1Z3X1XiO9WVidGL_mRzr1C047BdzQtAkV_TKF0AHkHNLT3lPdd3jv-fYGpDUNTNAZipIKxvzZ2LA";
 
 app.get("/", (req, res) => {
   res.send("Clash of Clans Proxy Server is running 🚀");
